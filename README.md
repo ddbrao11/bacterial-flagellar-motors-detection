@@ -1,2 +1,4 @@
-# bacterial-flagellar-motors-detection
-locate flagellar motors in three-dimensional reconstructions of bacteria.
+## Scientific Context
+
+Automated detection of biological structures enables scalable analysis
+of microscopy datasets.
