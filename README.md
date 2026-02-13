@@ -8,6 +8,13 @@ Manual annotation is time-consuming and may introduce variability.
 This research explores deep learning approaches for identifying
 flagellar motor structures within 3D biological reconstructions.
 
+## Biological Significance
+
+Understanding flagellar motor structures supports research in
+microbial motility and biological mechanisms. AI-assisted detection
+can help scale structural analysis workflows and accelerate
+scientific discovery.
+
 ## Research Notes
 This repository represents ongoing independent research exploration.
 
