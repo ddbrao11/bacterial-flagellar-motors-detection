@@ -66,10 +66,42 @@ Evaluation & Analysis
 ![Flagellar motor detection pipeline](diagrams/flagellar_pipeline.png)
 
 ## Dataset Intuition (What the Input Looks Like)
-Below is a representative example of the *input format* (shown as a 2D slice/projection). The core challenge is that the target structure is small relative to the volume and may be difficult to localize under noise and imaging artifacts.
 
-![Sample input visualization](assets/sample_volume_slice.png)
+Below are representative visualizations derived from a public benchmark 3D tomogram:
+a central slice and a max-intensity projection (MIP). The core challenge is that the
+target structure is small relative to the volume and can be difficult to localize
+under noise and imaging artifacts.
 
-*Example visualization. Replace this synthetic placeholder with a real slice/projection generated from the public benchmark data when available.*
+![Sample slice](assets/sample_volume_slice.png)
+![Max-intensity projection](assets/sample_mip.png)
 
-> Note: Visualizations should be derived from publicly available benchmark data. This repository does not redistribute competition datasets.
+> Note: This repository does not redistribute datasets or raw tomograms. It includes only derived visualizations.
+
+## Dataset Source & Citation
+
+This work uses publicly available benchmark data hosted on the CryoET Data Portal.
+This repository does **not** redistribute raw tomograms or datasets; it includes only
+derived visualizations (e.g., a single slice/projection image) generated from the public data.
+
+### Portal citation
+If you use the CryoET Data Portal in your work, please cite:
+Ermel, U., Cheng, A., Ni, J.X. et al. *A data portal for providing standardized annotations for cryo-electron tomography.*
+**Nature Methods** 21, 2200–2202 (2024). https://doi.org/10.1038/s41592-024-02477-2
+
+### Data contributor acknowledgement
+Some of the data used in this work was provided through the CryoET Data Portal with the following metadata:
+
+- **Depositing Authors:** Yi-Wei Chang; Grant Jensen  
+- **Deposition Name:** *Hylemonella gracilis* (tax_id=887062), strain ATCC 19624 — deposited by Yi-Wei Chang  
+- **Deposition ID:** **CZCDP-10048**  
+- **Deposition Date:** 2023-10-01  
+- **Release Date:** 2023-12-01  
+- **Dataset:** *Hylemonella gracilis* (**DS-10161**)  
+- **Run:** ycw2012-09-23-41 (**RN-8398**)  
+- **Reconstruction Software:** IMOD  
+- **Reconstruction Method:** WBP  
+- **Voxel Spacing:** 19.733 Å  
+- **Volume Size (x, y, z):** (956, 924, 500) px  
+- **Alignment Status:** Fiducial aligned = True; CTF corrected = No; Alignment type = GLOBAL (**AL-8477**)
+
+> Note: For the authoritative dataset record and any associated DOIs/publications, refer to the CryoET Data Portal entry for DS-10161 / RN-8398.
