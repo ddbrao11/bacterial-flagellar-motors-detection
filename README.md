@@ -62,3 +62,14 @@ Prediction (Motor Location)
         ↓
 Evaluation & Analysis
 ```
+### System Overview (Conceptual)
+![Flagellar motor detection pipeline](diagrams/flagellar_pipeline.png)
+
+## Dataset Intuition (What the Input Looks Like)
+Below is a representative example of the *input format* (shown as a 2D slice/projection). The core challenge is that the target structure is small relative to the volume and may be difficult to localize under noise and imaging artifacts.
+
+![Sample input visualization](assets/sample_volume_slice.png)
+
+*Example visualization. Replace this synthetic placeholder with a real slice/projection generated from the public benchmark data when available.*
+
+> Note: Visualizations should be derived from publicly available benchmark data. This repository does not redistribute competition datasets.
